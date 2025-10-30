@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+    background: #244BC5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .login-box {
+    text-align: center;
+    width: 350px;
+  }
+  
+ 
+  .icon {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  
+  .cart-icon {
+    width: 80px;
+    height: auto;
+     
+  }
+  
+
+  .input-group {
+    position: relative;
+    margin: 15px 0;
+  }
+  
+  .input-icon {
+    position: absolute;
+    top:10px;
+    left: 10px;
+    width: 18px;
+    height: 18px;    
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: transparent;
+    color: white;
+    outline: none;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .input-group input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .input-group input:focus {
+    border-color: #fff;
+  }
+  
+
+  .btn-login {
+    width: 100%;
+    background: white;
+    color: #244BC5;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s;
+  }
+  
+  .btn-login:hover {
+    background: #e3f2fd;
+  }
+  
+ 
+  .forgot {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    color: #ddd;
+    font-size: 12px;
+    text-decoration: none;
+    padding-right: 2px;
+  }
+  
+  .forgot:hover {
+    text-decoration: underline;
+  }
+  
